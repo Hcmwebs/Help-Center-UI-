@@ -32,11 +32,8 @@ body{
 }
 header{
     width: 60%;
-    display: flex;
-    place-items: center;
-    flex-direction: column;
     text-align: center;
-    background-color:blue;
+
 
     h1{
 
@@ -45,6 +42,7 @@ header{
         font-weight: 500;
         margin-bottom: 1rem;
         color: $primary-color;
+        background-color:blue;
     }
     input{
         font-size: 1.6rem;
