@@ -142,29 +142,3 @@ header{
 }
 
 @import'medias';
-
-@media(min-width:700px){
-    .container{
-        width: 1400px;
-        height: 1200px;
-
-        header{
-            width:80%;
-            margin: 0 auto;
-        }
-
-        .card{
-            width: 80%;
-            height: 700px;
-
-            &-items{
-                display: grid;
-                grid-template-columns: repeat(4, 1fr);
-                gap:0.5rem;
-            }
-
-        }
-
-    }
-
-}
