@@ -1,0 +1,28 @@
+
+@media(min-width:700px){
+    .container{
+        width: 1200px;
+        height: auto;
+        padding: 5rem;
+        display: grid;
+        place-items: center;
+
+        header{
+            width:80%;
+            margin-bottom: 0.5rem;
+        }
+
+        .card{
+            width: 100%;
+
+            &-items{
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap:0.5rem;
+            }
+
+        }
+
+    }
+
+}

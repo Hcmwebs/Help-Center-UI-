@@ -1,0 +1,27 @@
+
+@media(min-width:700px){
+    .container{
+        width: 1000px;
+        height: 1000px;
+
+        header{
+            width:80%;
+            margin: 0 auto;
+        }
+
+        .card{
+            margin: 0 autos;
+            width: 80%;
+            height: 700px;
+
+            &-items{
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap:0.5rem;
+            }
+
+        }
+
+    }
+
+}
